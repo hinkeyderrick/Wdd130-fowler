@@ -1,11 +1,110 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <title>The Spider Analysis</title>
+
+    <style>
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #ffffff;
+            color: #222;
+        }
+
+        .logo-container {
+            text-align: center;
+            padding: 20px 0;
+            background: white;
+        }
+
+        .logo-container img {
+            width: 150px;
+            height: auto;
+        }
+        .hero {
+            width: 100%;
+            height: 300px;
+            background-image: url('/mnt/data/7B1BB4EF-2989-4FDF-AA83-5795CBBDC650.jpeg');
+            background-size: cover;
+            background-position: center;
+        }
+        nav {
+            background: #115D9A;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            color: #CD2527;
+        }
+        .content {
+            width: 90%;
+            max-width: 1100px;
+            margin: auto;
+            padding: 30px 0;
+        }
+
+        h2 { 
+            color: #115D9A;
+            border-bottom: 3px solid #CD2527;
+            padding-bottom: 5px;
+        }
+
+        .card {
+            background: #f7f7f7;
+            padding: 20px;
+            border-left: 6px solid #CD2527;
+            border-radius: 6px;
+            margin: 25px 0;
+        }
+    </style>
 </head>
+
 <body>
-    something 
+    <div class="logo-container">
+        <img src="/mnt/data/3D01A592-7C90-491C-B443-9524D8DFBE79.jpeg" alt="Spider Logo">
+    </div>
+    <div class="hero"></div>
+    <nav>
+        <a href="#tobey">Tobey Maguire</a>
+        <a href="#andrew">Andrew Garfield</a>
+        <a href="#tom">Tom Holland</a>
+    </nav>
+
+    <div class="content">
+
+        <h2>Overview</h2>
+        <p>
+            The three live-action Spider-Men each bring a unique take to Peter Parker. Tobey Maguire brings emotional
+            depth and responsibility, Andrew Garfield adds charm and intensity, and Tom Holland blends youth,
+            vulnerability, and MCU integration.
+        </p>
+        <div id="tobey" class="card">
+            <h3>Tobey Maguire</h3>
+            <p>Origin story and classic trilogy portrayal focused on responsibility.</p>
+        </div>
+        <div id="andrew" class="card">
+            <h3>Andrew Garfield</h3>
+            <p>More emotional, modern, fast-moving portrayal with Gwen Stacy's storyline.</p>
+        </div>
+
+        <div id="tom" class="card">
+            <h3>Tom Holland</h3>
+            <p>MCU-connected, young, energetic portrayal with Tony Stark mentorship.</p>
+        </div>
+
+    </div>
 </body>
 </html>
