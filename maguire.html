@@ -73,7 +73,7 @@
         #contentBox{
             display: grid;
             grid-template-columns: 1fr 3fr 1fr;
-
+            gap: 5px;
         }
 
         #tobey1{
@@ -97,6 +97,7 @@
             grid-column: 1/3;
             grid-row: 2/3;
         }
+        
     </style>
 </head>
 
@@ -150,6 +151,18 @@
                 <li>Others note his Peter Parker and Spider-Man personas don't always feel fully blended.</li>
             </ul>
         </div>
+
+        <form>
+            <h2>Who is your Favorite?</h2>
+            
+            <input type="radio" id="tobey">
+            <label for="tobey">Tobey Maguire</label> <br>
+            <input type="radio" id="andrew">
+            <label for="andrew">Andrew Garfield</label> <br>
+            <input type="radio" id="tom">
+            <label for="tom">Tom Holland</label> <br>
+            <input type="submit">
+        </form>
     </div>
 </body>
 </html>
